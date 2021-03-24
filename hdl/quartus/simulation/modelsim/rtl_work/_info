@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/quartus/simulation/modelsim
 vsum1bcc
-!s110 1616541202
+!s110 1616557725
 !i10b 1
 !s100 kbd>86O=0<2:dcRSLWeg_0
 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -26,7 +26,7 @@ OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1616541201.000000
+!s108 1616557724.000000
 !s107 C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/sum1bcc.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src|C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/sum1bcc.v|
 !i113 1

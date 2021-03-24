@@ -1,5 +1,5 @@
 Flow report for lab01-sumador
-Tue Mar 23 18:12:15 2021
+Tue Mar 23 22:47:54 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Tue Mar 23 18:12:15 2021       ;
+; Flow Status                 ; Successful - Tue Mar 23 22:47:54 2021       ;
 ; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name               ; lab01-sumador                               ;
 ; Top-level Entity Name       ; sum1bcc                                     ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/23/2021 18:11:02 ;
+; Start date & time ; 03/23/2021 22:46:48 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab01-sumador       ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 26833618510324.161654106006852         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 26833618510324.161655760709800         ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --             ;
@@ -93,8 +93,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:01:20     ; 1.0                     ; 4762 MB             ; 00:02:27                           ;
-; Total                  ; 00:01:20     ; --                      ; --                  ; 00:02:27                           ;
+; Analysis & Elaboration ; 00:01:09     ; 1.0                     ; 4762 MB             ; 00:02:05                           ;
+; Total                  ; 00:01:09     ; --                      ; --                  ; 00:02:05                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

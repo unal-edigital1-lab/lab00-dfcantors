@@ -10,26 +10,50 @@ z2
 cModel Technology
 Z0 dC:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/quartus/simulation/modelsim
 vsum1bcc
-!s110 1616557725
+!s110 1616568783
 !i10b 1
 !s100 kbd>86O=0<2:dcRSLWeg_0
-!s11b Dg1SIo80bB@j0V0VzS_@n1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IWi2DDbQ55GdgUZU<g1RLR0
-VDg1SIo80bB@j0V0VzS_@n1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
 w1615396752
 8C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/sum1bcc.v
 FC:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/sum1bcc.v
 !i122 0
 L0 1 17
-OV;L;2020.1;71
+Z3 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1616557724.000000
+!s108 1616568782.000000
 !s107 C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/sum1bcc.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src|C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/sum1bcc.v|
 !i113 1
-o-vlog01compat -work work
+Z4 o-vlog01compat -work work
 !s92 -vlog01compat -work work +incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src
-tCvgOpt 0
+Z5 tCvgOpt 0
+vsum4bcc
+!s110 1616568784
+!i10b 1
+!s100 :Rd62;b1aGh>Gn0NNVFEk0
+R1
+Io5SE?>>GG:]el@nNfJ<PL0
+R2
+R0
+w1616568642
+8C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/quartus/sum4bcc.v
+FC:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/quartus/sum4bcc.v
+!i122 1
+L0 1 15
+R3
+r1
+!s85 0
+31
+!s108 1616568783.000000
+!s107 C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/quartus/sum4bcc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/quartus|C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/quartus/sum4bcc.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/quartus
+R5

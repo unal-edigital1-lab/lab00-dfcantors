@@ -54,7 +54,7 @@ cada entrada requiere de 4 datos, como se ve en la siguiente imagen:
 ![Imagen 4](https://github.com/unal-edigital1-lab/lab00-dfcantors/blob/master/sumador4datos.PNG)
 
 
-Para la prueba de este suador, se realizó un archivo testbech
+Para la prueba de este sumador, se realizó un archivo testbech
 
 # 3) Archivo TestBech
 

@@ -6,11 +6,16 @@ Daniel Felipe Cantor Santana
 
 El desarrollo del laboratorio es el siguiente:
 
-# 1)Sumamdor de 1 bit
+Antes de empezar las simulaciones, cree un nuevo proyecto llamado lab01sum el cual configuré como se busca en este laboratorio
+(especificar la ruta de simulación, emplear modelsim altera etc).
 
-Inicialmente se tuvo un error al momento de intentar lanzar la simulación  del laboratorio, esto debido a que  el trabajo se encuentra desarrollado
-enuna versión distinta a la se tiene. Esto se solucionó eliminando la carpetoa db del dispositivo para así permitir la creación
-se una nueva copia del archivo.
+# 1)Sumador de 1 bit
+
+Inicialmente tuve varios problemas al momento de intentar lanzar la simulación el primero ocurrió ya que el trabajo se desarrolló
+en una versión mas antigua del programa a la que yo instalé. Esto se solucionó eliminando la carpeta db del dispositivo para así permitir la creación
+de una nueva copia desde el repositorio.
+El segundo error ocurrió al crear un nuevo proyecto (en este caso la carpeta Lab00) al copiar el codigo e intentar lanzarlo
+aparecia un error, con esto caí en cuenta que el proyecto y el archivo a lanzar deben tener el mismo nombre.
 
 
 Se simuló el primer sumador  sum1bcc que como se observó funciona correctamente, se realizaron sus 8 posibles
@@ -34,7 +39,8 @@ Las simulaciones arrojaron el siguiente resultado:
 
 *****************************************
 Como se ve, el sumador actua segun como es de esperarse. Los valores de la tabla de verdad y los de la simulación coinciden.
-
+Al realizar la segunda simulación, es decir emplear el archivo sum1bcc_primitive no se presentaron inconvenientes. Este segundo
+archivo arrojó los mismo resultados que sum1bcc. 
 
 # 2) Sumador de 4 bits
 Ahora un sumador de 4 bits puede construirse a traves de varios sumadores de 1 bit, es decir, ir concatenando varios sumadores de 1 bit.
@@ -48,13 +54,13 @@ Se tiene el siguiente codigo para programar este sumador:
 
 ![Imagen 3](https://github.com/unal-edigital1-lab/lab00-dfcantors/blob/master/sumador4bits.PNG)
 
-La extensión del archivo debe ser .qpf para poder simularse. Una vez se lanza el archivo, nos encontramos con que efectivamente
-cada entrada requiere de 4 datos, como se ve en la siguiente imagen:
+Una vez se lanza el archivo, nos encontramos con que efectivamente cada entrada requiere de 4 datos, 
+como se ve en la siguiente imagen:
 
 ![Imagen 4](https://github.com/unal-edigital1-lab/lab00-dfcantors/blob/master/sumador4datos.PNG)
 
 
-Para la prueba de este sumador, se realizó un archivo testbech
+Para la prueba de este sumador, se realizó un archivo testbech.
 
 # 3) Archivo TestBech
 

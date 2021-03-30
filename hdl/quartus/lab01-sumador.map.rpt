@@ -1,5 +1,5 @@
 Analysis & Elaboration report for lab01-sumador
-Wed Mar 24 01:52:04 2021
+Thu Mar 25 23:00:42 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -10,8 +10,7 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
   4. Analysis & Elaboration Settings
-  5. Port Connectivity Checks: "sum1bcc:s0"
-  6. Analysis & Elaboration Messages
+  5. Analysis & Elaboration Messages
 
 
 
@@ -38,10 +37,10 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Wed Mar 24 01:52:04 2021       ;
+; Analysis & Elaboration Status ; Successful - Thu Mar 25 23:00:42 2021       ;
 ; Quartus Prime Version         ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                 ; lab01-sumador                               ;
-; Top-level Entity Name         ; sum4bcc                                     ;
+; Top-level Entity Name         ; sum1bcc                                     ;
 ; Family                        ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
 ; Total registers               ; N/A until Partition Merge                   ;
@@ -75,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CGXFC7C7F23C8     ;                    ;
-; Top-level entity name                                                           ; sum4bcc            ; lab01-sumador      ;
+; Top-level entity name                                                           ; sum1bcc            ; lab01-sumador      ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -156,38 +155,27 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "sum1bcc:s0"                                                                                                                                                                         ;
-+--------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type  ; Severity ; Details                                                                                                                                                                            ;
-+--------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Ci     ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; Ci[-1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
-+--------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Wed Mar 24 01:50:46 2021
+    Info: Processing started: Thu Mar 25 22:58:47 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab01-sumador -c lab01-sumador --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file /users/danie/onedrive/documentos/github/lab00-dfcantors/hdl/src/sum1bcc.v
     Info (12023): Found entity 1: sum1bcc File: C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/sum1bcc.v Line: 1
-Warning (12019): Can't analyze file -- file ../src/sum4bcc.v is missing
-Info (12021): Found 1 design units, including 1 entities, in source file sum4bcc.v
-    Info (12023): Found entity 1: sum4bcc File: C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/quartus/sum4bcc.v Line: 1
-Info (12127): Elaborating entity "sum4bcc" for the top level hierarchy
-Info (12128): Elaborating entity "sum1bcc" for hierarchy "sum1bcc:s0" File: C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/quartus/sum4bcc.v Line: 9
-Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 4761 megabytes
-    Info: Processing ended: Wed Mar 24 01:52:04 2021
-    Info: Elapsed time: 00:01:18
-    Info: Total CPU time (on all processors): 00:02:09
+Info (12021): Found 1 design units, including 1 entities, in source file /users/danie/onedrive/documentos/github/lab00-dfcantors/hdl/src/sum4bcc.v
+    Info (12023): Found entity 1: sum4bcc File: C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/sum4bcc.v Line: 1
+Info (15248): File "C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/quartus/sum4bcc.v" is a duplicate of already analyzed file "C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/sum4bcc.v" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file sum4bcc.v
+Info (12127): Elaborating entity "sum1bcc" for the top level hierarchy
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4758 megabytes
+    Info: Processing ended: Thu Mar 25 23:00:42 2021
+    Info: Elapsed time: 00:01:55
+    Info: Total CPU time (on all processors): 00:02:42
 
 

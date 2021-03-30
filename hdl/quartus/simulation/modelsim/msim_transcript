@@ -12,39 +12,16 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src {C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/sum1bcc.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:53:02 on Mar 24,2021
+# Start time: 23:02:13 on Mar 25,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src" C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/sum1bcc.v 
 # -- Compiling module sum1bcc
 # 
 # Top level modules:
 # 	sum1bcc
-# End time: 01:53:03 on Mar 24,2021, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/quartus {C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/quartus/sum4bcc.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:53:03 on Mar 24,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/quartus" C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/quartus/sum4bcc.v 
-# -- Compiling module sum4bcc
-# 
-# Top level modules:
-# 	sum4bcc
-# End time: 01:53:04 on Mar 24,2021, Elapsed time: 0:00:01
+# End time: 23:02:14 on Mar 25,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
-vsim work.sum4bcc
-# vsim work.sum4bcc 
-# Start time: 01:53:16 on Mar 24,2021
-# Loading work.sum4bcc
+vsim work.sum1bcc
+# vsim work.sum1bcc 
+# Start time: 23:02:23 on Mar 25,2021
 # Loading work.sum1bcc
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Ci'. The port definition is at: C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/sum1bcc.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /sum4bcc/s0 File: C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/quartus/sum4bcc.v Line: 9
-add wave -position insertpoint  \
-sim:/sum4bcc/xi \
-sim:/sum4bcc/yi \
-sim:/sum4bcc/co \
-sim:/sum4bcc/zi \
-sim:/sum4bcc/c1 \
-sim:/sum4bcc/c2 \
-sim:/sum4bcc/c3
-# End time: 02:03:16 on Mar 24,2021, Elapsed time: 0:10:00
-# Errors: 0, Warnings: 1

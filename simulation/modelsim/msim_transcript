@@ -1,0 +1,65 @@
+# Reading pref.tcl
+# do lab01sum_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors {C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/sum1bcc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:18:16 on Mar 29,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors" C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/sum1bcc.v 
+# -- Compiling module sum1bcc
+# 
+# Top level modules:
+# 	sum1bcc
+# End time: 23:18:16 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors {C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/sum4bcc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:18:17 on Mar 29,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors" C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/sum4bcc.v 
+# -- Compiling module sum4bcc
+# 
+# Top level modules:
+# 	sum4bcc
+# End time: 23:18:17 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors {C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:18:17 on Mar 29,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors" C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 23:18:18 on Mar 29,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 23:18:18 on Mar 29,2021
+# Loading work.testbench
+# ** Error: (vsim-3033) Instantiation of 'sum4b' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/testbench.v Line: 12
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cycloneive
+#             C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/simulation/modelsim/rtl_work
+#             C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./lab01sum_run_msim_rtl_verilog.do PAUSED at line 13
+# End time: 23:19:21 on Mar 29,2021, Elapsed time: 0:01:03
+# Errors: 1, Warnings: 0

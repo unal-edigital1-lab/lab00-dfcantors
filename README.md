@@ -71,13 +71,14 @@ Realizar las simulaciones cambiando manualmente los valores de las entradas del 
 por lo tanto, al implementar un TestBech podemos de cierto manera "automatizar" esa tarea. Vale la pena recordar, que el
 archivo testbench debe indicar por cuanto tiempo va a funcionar de lo contrario al sintetizar aparecerá el siguiente error:
 
-*IMAGEN DEL ERROR*
-
+![Imagen 6](https://github.com/unal-edigital1-lab/lab00-dfcantors/blob/master/error_testbench.png)
 
 Indicando el tiempo de sintetización, tanto de inicio como de finalización, para evitar un ciclo infinito se tuvo el siguiente
 resultado:
 
-*FOTO DEL RESULTADO*
+
+![Imagen 7](https://github.com/unal-edigital1-lab/lab00-dfcantors/blob/master/sum4bTB.PNG)
+
 
 Como se ve se indica el valor de cada compuerta del sumador en orden. Este es el resultado que se espera.
 

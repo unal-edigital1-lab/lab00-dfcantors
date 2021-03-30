@@ -35,7 +35,7 @@ A  | B  | Cin | Out | Cout
 
 Las simulaciones arrojaron el siguiente resultado:
 *****************************************
- ![Imagen 1](https://github.com/unal-edigital1-lab/lab00-dfcantors/blob/master/imagenes/sum1bcc.png)
+ ![Imagen 1](https://github.com/unal-edigital1-lab/lab00-dfcantors/blob/master/imagenes/sum1b.PNG)
 
 *****************************************
 Como se ve, el sumador actua segun como es de esperarse. Los valores de la tabla de verdad y los de la simulación coinciden.

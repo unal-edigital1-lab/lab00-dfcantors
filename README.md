@@ -40,24 +40,26 @@ Las simulaciones arrojaron el siguiente resultado:
 *****************************************
 Como se ve, el sumador actua segun como es de esperarse. Los valores de la tabla de verdad y los de la simulación coinciden.
 Al realizar la segunda simulación, es decir emplear el archivo sum1bcc_primitive no se presentaron inconvenientes. Este segundo
-archivo arrojó los mismo resultados que sum1bcc. 
+archivo arrojó los mismo resultados que sum1bcc como se ve a continuación:
+
+![Imagen 2](https://github.com/unal-edigital1-lab/lab00-dfcantors/blob/master/SumadorPrimitivo.PNG)
 
 # 2) Sumador de 4 bits
 Ahora un sumador de 4 bits puede construirse a traves de varios sumadores de 1 bit, es decir, ir concatenando varios sumadores de 1 bit.
 como se muestra a continuación:
  
 ***************************
-![Imagen 2](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab02-sumador4b/doc/sum4b.jpg)
+![Imagen 3](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab02-sumador4b/doc/sum4b.jpg)
 ***************************
 
 Se tiene el siguiente codigo para programar este sumador:
 
-![Imagen 3](https://github.com/unal-edigital1-lab/lab00-dfcantors/blob/master/sumador4bits.PNG)
+![Imagen 4](https://github.com/unal-edigital1-lab/lab00-dfcantors/blob/master/sumador4bits.PNG)
 
 Una vez se lanza el archivo, nos encontramos con que efectivamente cada entrada requiere de 4 datos, 
 como se ve en la siguiente imagen:
 
-![Imagen 4](https://github.com/unal-edigital1-lab/lab00-dfcantors/blob/master/sumador4datos.PNG)
+![Imagen 5](https://github.com/unal-edigital1-lab/lab00-dfcantors/blob/master/sumador4datos.PNG)
 
 
 Para la prueba de este sumador, se realizó un archivo testbech.

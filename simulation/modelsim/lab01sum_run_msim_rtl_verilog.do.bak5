@@ -6,7 +6,7 @@ vlib rtl_work
 vmap work rtl_work
 
 vlog -vlog01compat -work work +incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors {C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/sum1bcc.v}
-vlog -vlog01compat -work work +incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors {C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/sum4bcc.v}
+vlog -vlog01compat -work work +incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors {C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/sum4b.v}
 
 vlog -vlog01compat -work work +incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/solucion/src {C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/solucion/src/sum4b_TB.v}
 

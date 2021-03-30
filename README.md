@@ -68,7 +68,16 @@ Para la prueba de este sumador, se realizó un archivo testbech.
 
 
 Realizar las simulaciones cambiando manualmente los valores de las entradas del sumador resulta ser un trabajo dispendioso
-por lo tanto, al implementar un TestBech podemos de cierto manera "automatizar" esa tarea:
+por lo tanto, al implementar un TestBech podemos de cierto manera "automatizar" esa tarea. Vale la pena recordar, que el
+archivo testbench debe indicar por cuanto tiempo va a funcionar de lo contrario al sintetizar aparecerá el siguiente error:
+
+*IMAGEN DEL ERROR*
 
 
+Indicando el tiempo de sintetización, tanto de inicio como de finalización, para evitar un ciclo infinito se tuvo el siguiente
+resultado:
+
+*FOTO DEL RESULTADO*
+
+Como se ve se indica el valor de cada compuerta del sumador en orden. Este es el resultado que se espera.
 

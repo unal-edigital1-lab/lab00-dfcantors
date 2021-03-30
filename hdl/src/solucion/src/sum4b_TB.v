@@ -11,7 +11,7 @@ module sum4b_TB;
   wire [3:0] S;
 
   // Instantiate the Unit Under Test (UUT)
-  sum4b uut (
+  sum4bcc uut (
     .xi(A), 
     .yi(B), 
     .co(co), 

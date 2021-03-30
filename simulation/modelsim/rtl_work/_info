@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/simulation/modelsim
 vsum1bcc
-!s110 1617077896
+!s110 1617139907
 !i10b 1
 !s100 L;laKRJmD4=93F3YIET^R0
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -26,15 +26,40 @@ Z3 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1617077896.000000
+!s108 1617139906.000000
 !s107 C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/sum1bcc.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors|C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/sum1bcc.v|
 !i113 1
 Z4 o-vlog01compat -work work
 Z5 !s92 -vlog01compat -work work +incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors
 Z6 tCvgOpt 0
+vsum4b_TB
+Z7 !s110 1617139908
+!i10b 1
+!s100 gX?HaIXJeDlW^=6d3WBV]3
+R1
+IHU4XI8D<XDmEGTUbFANmX0
+R2
+R0
+w1617134884
+8C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/solucion/src/sum4b_TB.v
+FC:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/solucion/src/sum4b_TB.v
+!i122 2
+L0 3 41
+R3
+r1
+!s85 0
+31
+!s108 1617139908.000000
+!s107 C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/solucion/src/sum4b_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/solucion/src|C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/solucion/src/sum4b_TB.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/hdl/src/solucion/src
+R6
+nsum4b_@t@b
 vsum4bcc
-!s110 1617077897
+R7
 !i10b 1
 !s100 :Rd62;b1aGh>Gn0NNVFEk0
 R1
@@ -50,33 +75,9 @@ R3
 r1
 !s85 0
 31
-Z7 !s108 1617077897.000000
+!s108 1617139907.000000
 !s107 C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/sum4bcc.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors|C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/sum4bcc.v|
-!i113 1
-R4
-R5
-R6
-vtestbench
-!s110 1617077898
-!i10b 1
-!s100 Z`EVC2D2[L@aFkf:YAFE:0
-R1
-IjkDU:?_a>^gzQk20M^on_0
-R2
-R0
-w1617077599
-8C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/testbench.v
-FC:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/testbench.v
-!i122 2
-L0 1 29
-R3
-r1
-!s85 0
-31
-R7
-!s107 C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/testbench.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors|C:/Users/danie/OneDrive/Documentos/GitHub/lab00-dfcantors/testbench.v|
 !i113 1
 R4
 R5

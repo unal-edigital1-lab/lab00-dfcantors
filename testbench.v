@@ -1,3 +1,6 @@
+`timescale 1ns / 1ps 
+
+
 module testbench;
 
   // Inputs
@@ -9,7 +12,7 @@ module testbench;
   wire [3:0] zi;
 
   // Instantiate the Unit Under Test (UUT)
-  sum4b uut (
+  sum4bcc uut (
     .xi(xi), 
     .yi(yi), 
     .co(co), 
@@ -24,6 +27,12 @@ module testbench;
         xi=xi+1;
       #5 $display("el valor de %d + %d = %d", xi,yi,zi) ;
     end
-  end      
+  end  
+
+  initial begin: TEST_CASE
+     $dumpfile("sum4b_TB.vcd");
+     $dumpvars(-1, uut);
+     #(200) $finish;
+   end  
 
 endmodule 

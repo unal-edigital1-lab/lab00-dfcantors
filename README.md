@@ -82,3 +82,23 @@ resultado:
 
 Como se ve se indica el valor de cada compuerta del sumador en orden. Este es el resultado que se espera.
 
+
+# 4)Implementación del sumador en la tarjeta
+Ya con el codigo del sumador de 4 bit completado, se dispuso a integrar el codigo en la tarjeta JTAG.
+Lo primero fue asignar los pines de salida y entrada con las vairables que se escriberon en sum4bcc, como se muestra a
+continuación:
+
+
+[FOTOOOO]
+
+En esta etapa del desarrolo tuvimos un problema, el codigo no se podía cargar en la tarjeta, esto se debió a que inicialmente
+no se conectó la tarjeta al voltaje. Una vez solucionamos el problema la tarjeta predió y configuró el codigo:
+
+[FOTOTOO TARJETA]
+
+
+Se oresentó otro problema en cada suma se teniaque habia un 1 de más, esto se debe a que los interruptores se encuentran de cabeza
+por lo que tuvimos dos formas de solucionar este inconveniente:
+
+1- Invertir la señal de salida en el código
+2- Cambiar la orientación de como tomamos la JTAG

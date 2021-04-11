@@ -89,12 +89,12 @@ Lo primero fue asignar los pines de salida y entrada con las vairables que se es
 continuación:
 
 
-[FOTOOOO]
+![Imagen 8](https://github.com/unal-edigital1-lab/lab00-dfcantors/blob/master/imagenes/Asignación.jpeg)
 
 En esta etapa del desarrolo tuvimos un problema, el codigo no se podía cargar en la tarjeta, esto se debió a que inicialmente
 no se conectó la tarjeta al voltaje. Una vez solucionamos el problema la tarjeta predió y configuró el codigo:
 
-[FOTOTOO TARJETA]
+![Imagen 9](https://github.com/unal-edigital1-lab/lab00-dfcantors/blob/master/imagenes/Tarjeta.jpeg)
 
 
 Se oresentó otro problema en cada suma se teniaque habia un 1 de más, esto se debe a que los interruptores se encuentran de cabeza
